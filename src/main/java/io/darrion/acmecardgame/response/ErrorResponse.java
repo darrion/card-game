@@ -1,5 +1,10 @@
 package io.darrion.acmecardgame.response;
 
+import lombok.NoArgsConstructor;
+import org.springframework.stereotype.Component;
+
+@NoArgsConstructor
+@Component
 public class ErrorResponse {
     private String message;
 

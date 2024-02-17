@@ -1,6 +1,7 @@
 package io.darrion.acmecardgame.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import io.darrion.acmecardgame.exception.EmptyDeckException;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -30,17 +31,19 @@ public class Deck {
 
     @JsonIgnore
     public synchronized Card getTopCard() {
-        if (this.cards.isEmpty()) {
-            return null;
-        }
+        isNotEmpty();
         return this.cards.remove(0);
     }
 
     @JsonIgnore
     public synchronized Card getBottomCard() {
-        if (this.cards.isEmpty()) {
-            return null;
-        }
+        isNotEmpty();
         return this.cards.remove(this.cards.size() - 1);
+    }
+
+    public synchronized void isNotEmpty() {
+        if (this.cards.isEmpty()) {
+            throw new EmptyDeckException(String.format("The deck %s is empty.", this.id));
+        }
     }
 }
