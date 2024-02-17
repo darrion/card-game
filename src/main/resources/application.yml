@@ -1,0 +1,26 @@
+server:
+  port: 9000
+deck:
+  suits:
+    - type: CLUB
+    - type: DIAMOND
+    - type: HEART
+    - type: SPADE
+  ranks:
+    - type: ACE
+    - type: TWO
+    - type: THREE
+    - type: FOUR
+    - type: FIVE
+    - type: SIX
+    - type: SEVEN
+    - type: EIGHT
+    - type: NINE
+    - type: TEN
+    - type: JACK
+    - type: KING
+    - type: QUEEN
+  instructions:
+    - type: SHUFFLE
+    - type: TOP
+    - type: BOTTOM
