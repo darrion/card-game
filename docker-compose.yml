@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  your-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"  # Adjust the port if your Spring Boot app listens on a different port
+    volumes:
+      - ./build/libs:/app/build/libs  # Mount the build directory to avoid rebuilding the image for every change

@@ -25,25 +25,27 @@ public class Deck {
         this.cards = new CopyOnWriteArrayList<>(cards);
     }
 
-    public void shuffle() {
+    public synchronized void shuffle() {
         Collections.shuffle(this.cards);
     }
 
     @JsonIgnore
     public synchronized Card getTopCard() {
-        isNotEmpty();
+        safe();
         return this.cards.remove(0);
     }
 
     @JsonIgnore
     public synchronized Card getBottomCard() {
-        isNotEmpty();
+        safe();
         return this.cards.remove(this.cards.size() - 1);
     }
 
-    public synchronized void isNotEmpty() {
+    public synchronized void safe() {
         if (this.cards.isEmpty()) {
             throw new EmptyDeckException(String.format("The deck %s is empty.", this.id));
         }
     }
+
+
 }

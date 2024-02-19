@@ -3,6 +3,7 @@ package io.darrion.acmecardgame.factory;
 import io.darrion.acmecardgame.config.RankConfig;
 import io.darrion.acmecardgame.config.SuitConfig;
 import io.darrion.acmecardgame.model.*;
+import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -10,6 +11,7 @@ import java.util.List;
 import java.util.UUID;
 import java.util.concurrent.CopyOnWriteArrayList;
 
+@NoArgsConstructor
 @Component
 public class DeckFactory {
 
