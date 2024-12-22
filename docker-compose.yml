@@ -1,7 +1,8 @@
 version: '3.8'
 
 services:
-  your-service:
+  card-game:
+    container_name: card-game
     build:
       context: .
       dockerfile: Dockerfile

@@ -1,7 +1,7 @@
-package io.darrion.acmecardgame.response;
+package com.example.acmecardgame.response;
 
 
-import io.darrion.acmecardgame.model.Card;
+import com.example.acmecardgame.model.Card;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;

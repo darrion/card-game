@@ -1,4 +1,4 @@
-package io.darrion.acmecardgame;
+package com.example.acmecardgame;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

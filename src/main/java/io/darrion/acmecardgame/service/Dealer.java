@@ -1,10 +1,10 @@
-package io.darrion.acmecardgame.service;
+package com.example.acmecardgame.service;
 
-import io.darrion.acmecardgame.exception.DeckDoesNotExistException;
-import io.darrion.acmecardgame.exception.EmptyDeckException;
-import io.darrion.acmecardgame.factory.DeckFactory;
-import io.darrion.acmecardgame.model.Card;
-import io.darrion.acmecardgame.model.Deck;
+import com.example.acmecardgame.exception.DeckDoesNotExistException;
+import com.example.acmecardgame.exception.EmptyDeckException;
+import com.example.acmecardgame.factory.DeckFactory;
+import com.example.acmecardgame.model.Card;
+import com.example.acmecardgame.model.Deck;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;

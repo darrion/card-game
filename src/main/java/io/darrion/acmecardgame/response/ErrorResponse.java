@@ -1,4 +1,4 @@
-package io.darrion.acmecardgame.response;
+package com.example.acmecardgame.response;
 
 import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Component;

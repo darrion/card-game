@@ -1,7 +1,7 @@
-package io.darrion.acmecardgame.config;
+package com.example.acmecardgame.config;
 
-import io.darrion.acmecardgame.constant.Prefix;
-import io.darrion.acmecardgame.model.Suit;
+import com.example.acmecardgame.constant.Prefix;
+import com.example.acmecardgame.model.Suit;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

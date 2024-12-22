@@ -1,4 +1,4 @@
-package io.darrion.acmecardgame.exception;
+package com.example.acmecardgame.exception;
 
 public class DeckDoesNotExistException extends RuntimeException {
     public DeckDoesNotExistException(String message) {

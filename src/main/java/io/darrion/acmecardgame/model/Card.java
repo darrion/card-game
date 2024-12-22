@@ -1,4 +1,4 @@
-package io.darrion.acmecardgame.model;
+package com.example.acmecardgame.model;
 
 
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package io.darrion.acmecardgame.constant;
+package com.example.acmecardgame.constant;
 
 public class Prefix {
 

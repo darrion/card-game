@@ -1,14 +1,14 @@
-package io.darrion.acmecardgame.controller;
+package com.example.acmecardgame.controller;
 
-import io.darrion.acmecardgame.exception.DeckDoesNotExistException;
-import io.darrion.acmecardgame.exception.EmptyDeckException;
-import io.darrion.acmecardgame.model.Card;
-import io.darrion.acmecardgame.response.CardResponse;
-import io.darrion.acmecardgame.model.Deck;
+import com.example.acmecardgame.exception.DeckDoesNotExistException;
+import com.example.acmecardgame.exception.EmptyDeckException;
+import com.example.acmecardgame.model.Card;
+import com.example.acmecardgame.response.CardResponse;
+import com.example.acmecardgame.model.Deck;
 
-import io.darrion.acmecardgame.response.DeckResponse;
-import io.darrion.acmecardgame.response.ErrorResponse;
-import io.darrion.acmecardgame.service.Dealer;
+import com.example.acmecardgame.response.DeckResponse;
+import com.example.acmecardgame.response.ErrorResponse;
+import com.example.acmecardgame.service.Dealer;
 import org.apache.coyote.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

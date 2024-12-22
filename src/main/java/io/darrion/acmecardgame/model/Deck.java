@@ -1,7 +1,7 @@
-package io.darrion.acmecardgame.model;
+package com.example.acmecardgame.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import io.darrion.acmecardgame.exception.EmptyDeckException;
+import com.example.acmecardgame.exception.EmptyDeckException;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

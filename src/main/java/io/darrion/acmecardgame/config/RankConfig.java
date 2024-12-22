@@ -1,7 +1,7 @@
-package io.darrion.acmecardgame.config;
+package com.example.acmecardgame.config;
 
-import io.darrion.acmecardgame.constant.Prefix;
-import io.darrion.acmecardgame.model.Rank;
+import com.example.acmecardgame.constant.Prefix;
+import com.example.acmecardgame.model.Rank;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;

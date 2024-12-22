@@ -1,7 +1,7 @@
-package io.darrion.acmecardgame;
+package com.example.acmecardgame;
 
-import io.darrion.acmecardgame.controller.DeckController;
-import io.darrion.acmecardgame.service.Dealer;
+import com.example.acmecardgame.controller.DeckController;
+import com.example.acmecardgame.service.Dealer;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

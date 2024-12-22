@@ -1,4 +1,4 @@
-package io.darrion.acmecardgame.model;
+package com.example.acmecardgame.model;
 
 import org.springframework.stereotype.Component;
 

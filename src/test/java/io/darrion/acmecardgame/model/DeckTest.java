@@ -1,6 +1,6 @@
-package io.darrion.acmecardgame.model;
+package com.example.acmecardgame.model;
 
-import io.darrion.acmecardgame.exception.EmptyDeckException;
+import com.example.acmecardgame.exception.EmptyDeckException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

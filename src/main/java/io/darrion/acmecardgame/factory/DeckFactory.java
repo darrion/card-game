@@ -1,8 +1,8 @@
-package io.darrion.acmecardgame.factory;
+package com.example.acmecardgame.factory;
 
-import io.darrion.acmecardgame.config.RankConfig;
-import io.darrion.acmecardgame.config.SuitConfig;
-import io.darrion.acmecardgame.model.*;
+import com.example.acmecardgame.config.RankConfig;
+import com.example.acmecardgame.config.SuitConfig;
+import com.example.acmecardgame.model.*;
 import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

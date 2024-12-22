@@ -1,4 +1,4 @@
-package io.darrion.acmecardgame.exception;
+package com.example.acmecardgame.exception;
 
 public class EmptyDeckException extends RuntimeException {
     public EmptyDeckException(String message) {
