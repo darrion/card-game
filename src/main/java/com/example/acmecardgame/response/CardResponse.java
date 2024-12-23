@@ -2,7 +2,6 @@ package com.example.acmecardgame.response;
 
 
 import com.example.acmecardgame.model.Card;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.stereotype.Component;

@@ -1,16 +1,13 @@
 package com.example.acmecardgame.service;
 
 import com.example.acmecardgame.exception.DeckDoesNotExistException;
-import com.example.acmecardgame.exception.EmptyDeckException;
 import com.example.acmecardgame.factory.DeckFactory;
 import com.example.acmecardgame.model.Card;
 import com.example.acmecardgame.model.Deck;
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
 import java.util.Map;
 
 @AllArgsConstructor

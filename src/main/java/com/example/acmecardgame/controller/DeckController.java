@@ -9,7 +9,6 @@ import com.example.acmecardgame.model.Deck;
 import com.example.acmecardgame.response.DeckResponse;
 import com.example.acmecardgame.response.ErrorResponse;
 import com.example.acmecardgame.service.Dealer;
-import org.apache.coyote.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
